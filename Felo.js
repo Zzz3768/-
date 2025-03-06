@@ -1,7 +1,8 @@
 // 检查是否已经弹出过通知
 const hasShownNotification = $persistentStore.read("hasShownNotification");
+console.log("hasShownNotification:", hasShownNotification);
 
-if (!hasShownNotification) {
+if (hasShownNotification !== "true") {
   // 首次运行，弹出通知
   $notification.post("📢 不想练琴，不想早八", "", "");
   // 将标志位设置为已弹出
@@ -9,6 +10,8 @@ if (!hasShownNotification) {
 }
 
 let obj = JSON.parse($response.body);
+console.log("Request URL:", $request.url);
+console.log("Response Body:", $response.body);
 
 if ($request.url.indexOf("accounts.felo.me/api/user") !== -1) {
   if (obj.data && ("name" in obj.data)) {
