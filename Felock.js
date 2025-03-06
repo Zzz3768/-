@@ -1,7 +1,7 @@
 // felock.js
-const targetCookie = '_clsk=1e3ji69%7C1723606564421%7C1%7C1%7Cw.clarity.ms%2Fcollect; _ga_70F8QP140X=GS1.1.1723606552.4.1.1723606558.0.0.0; _ga=GA1.1.347029008.1723476322; _clck=8lm7fs%7C2%7Cfob%7C0%7C1685';
-const targetDeviceId = '902C611A-A12A-4D48-9DEF-562EF8155908';
-const targetAuthorization = 'qq_60cabdacf608480aa95663ab8f0f1ab5__';
+const targetCookie = '_clsk=xp9tb4%7C1741242874359%7C2%7C1%7Cu.clarity.ms%2Fcollect; _ga_70F8QP140X=GS1.1.1741242868.18.1.1741242874.0.0.0; _ga=GA1.1.266113278.1727702606; _clck=14ku2au%7C2%7Cftz%7C0%7C1734';
+const targetDeviceId = 'A9FACB9C-072B-438B-B76C-66E48E5EE74E';
+const targetAuthorization = 'EW_2677b730b3fa4c4aa3f4fd71f94cd3d1__';
 const targetAcceptEncoding = 'gzip, deflate, br';
 
 if (typeof $request !== 'undefined') {
