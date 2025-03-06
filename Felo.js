@@ -9,9 +9,9 @@ if ($request.url.indexOf("translator.felo.me/api/user/plan") !== -1) {
     // 添加或覆盖 plan 部分
     obj.data.plan = {
       "app_id": "translator",
-      "charge_time": "2025-03-09T07:42:14+0000",
+      "charge_time": "2099-03-09T07:42:14+0000",
       "subscription_id_third": "390001666489782",
-      "reset_time": "2025-03-09T07:42:14+0000",
+      "reset_time": "2099-03-09T07:42:14+0000",
       "count": 1,
       "user_product_id": "1897553328204836866",
       "subscription_type": "ANNUALLY",
