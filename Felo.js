@@ -1,6 +1,3 @@
-// 每次运行脚本时弹出通知
-$notification.post("📢 不想练琴，不想早八", "", "");
-
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf("accounts.felo.me/api/user") !== -1) {
