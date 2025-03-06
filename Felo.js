@@ -8,10 +8,10 @@ if ($request.url.indexOf("accounts.felo.me/api/user") !== -1) {
   if (obj.data && Array.isArray(obj.data.user_product_total)) {
     obj.data.user_product_total.forEach(item => {
       if ("total" in item) {
-        item.total = 5999999899;
+        item.total = 599999994;
       }
       if ("balance" in item) {
-        item.balance = 5999999899;
+        item.balance = 599999994;
       }
     });
   }
