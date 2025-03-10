@@ -2,7 +2,7 @@ let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf("accounts.felo.me/api/user") !== -1) {
   if (obj.data && ("name" in obj.data)) {
-    obj.data.name = "快快逃离明斯克";
+    obj.data.name = "不想实在，不想早八";
   }
 }
 
